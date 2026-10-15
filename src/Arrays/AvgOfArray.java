@@ -1,4 +1,4 @@
-package Array1;
+package Arrays;
 
 public class AvgOfArray {
     static double getAverage(int[] arr) {
