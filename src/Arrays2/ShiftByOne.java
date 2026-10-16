@@ -1,5 +1,7 @@
 package Arrays2;
 
+import java.util.Arrays;
+
 public class ShiftByOne {
 
     static void  shiftByOne(int []arr){
@@ -13,7 +15,8 @@ public class ShiftByOne {
     public static void main(String[] args) {
 
         int arr[]={1,2,3,4,5};
-        System.out.println(arr);
+        shiftByOne(arr);
+        System.out.println(Arrays.toString(arr));
 
     }
 }
